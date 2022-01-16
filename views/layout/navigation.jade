@@ -1,0 +1,109 @@
+header.main-header
+    a(href='/').logo
+        span.logo-mini
+            <b>A</b> LT
+        span.logo-lg
+            <b>Admin LTE</b>
+    nav(role='navigation').navbar.navbar-static-top
+        a(href='#', role='button', data-toggle='offcanvas').sidebar-toggle
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        div.navbar-custom-menu
+            ul.nav.navbar-nav
+                li.dropdown.messages-menu
+                    a(href='#', data-toggle='dropdown').dropdown-toggle
+                        i.fa.fa-envelope
+                        span.label.label-success
+                            | 5
+                    ul.dropdown-menu
+                        li.header
+                            | You have 5 messages
+                        li
+                            ul.menu
+                                li
+                                    a(href='#')
+                                        .pull-left
+                                            img(src='/images/profile.png',alt="User image").img-circle
+                                        h4
+                                            | Support Team
+                                            small
+                                                i.fa.fa-clock-o 5 mins
+                                        p
+                                            | Why not buy a new awesome theme?
+                        li.footer
+                            a(href='#')
+                                | See All Messages
+
+                    li.dropdown.notifications-menu
+                        a(href='#',data-toggle='dropdown').dropdown-toggle
+                            i.fa.fa-bell
+                            span.label.label-warning
+                                | 1
+                        ul.dropdown-menu
+                            li.header
+                                | You have 25 notifications
+                            li
+                                ul.menu
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-users.text-aqua
+                                            | 5 new members joined today
+                            li.footer
+                                a(href='#')
+                                    | View All
+
+                    li.dropdown.tasks-menu
+                        a(href='#',data-toggle='dropdown').dropdown-toggle
+                            i.fa.fa-flag
+                            span.label.label-danger
+                                |9
+                        ul.dropdown-menu
+                            li.header
+                                | You have 9 tasks
+                            li
+                                ul.menu
+                                    li
+                                        a(href='#')
+                                            h3
+                                                | Design some buttons
+                                                small.pull-right
+                                                    |70%
+                                            .progress.xs
+                                                .progress-bar.progress-bar-aqua(style='width:70%',role='progressbar', aria-valuenow='70', aria-valuemin='0', aria-valuemax='100')
+                                                span.sr-only
+                                                    | 70% Complete
+                            li.footer
+                                a(href='#')
+                                    | View all tasks
+                    li.dropdown.user.user-menu
+                        a(href='#',data-toggle='dropdown').dropdown-toggle
+                            img(src='/images/profile.png',alt='UserImage').user-image
+                            span.hidden-xs
+                                | Maja Uhuy 
+                        ul.dropdown-menu
+                            li.user-header
+                                img(src='/images/profile.png',alt='UserImage').img-circle
+                                p
+                                    | Maja Designer
+                                    small
+                                        | Sejak 2020 - 2021
+                            li.user-body
+                                .row
+                                    .col-xs-4.text-center
+                                        a(href='#')
+                                            | Demo
+                                    .col-xs-4.text-center
+                                        a(href='#')
+                                            | Demo
+                                    .col-xs-4.text-center
+                                        a(href='#')
+                                            | Demo
+                            li.user-footer
+                                .pull-left
+                                    a(href='#').btn.btn-default.btn-flat
+                                        | Profile
+                                .pull-right
+                                    a(href='#').btn.btn-default.btn-flat
+                                        | Sign out
